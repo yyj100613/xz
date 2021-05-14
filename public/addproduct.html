@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">添加商品页面</h1>
+    <form action="/product/add" method="post">
+        <p align="center">
+            所属家族编号：<input type="text" name="familyId" placeholder="请输入商品型号的家族编号">
+        </p>
+        <p align="center">
+            主&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;标&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;题：<input type="text" name="title" placeholder="请输入商品主标题">
+        </p>
+        <p align="center">
+            副&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;标&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;题：<input type="text" name="subtitle" placeholder="请输入商品副标题">
+        </p>
+        <p align="center">
+            商&nbsp;&nbsp;品&nbsp;&nbsp;价&nbsp;&nbsp;格&nbsp;：<input type="text" name="price" placeholder="请输入商品价格">
+        </p>
+        <p align="center">
+            服&nbsp;&nbsp;务&nbsp;&nbsp;承&nbsp;&nbsp;&nbsp;诺&nbsp;：<input type="text" name="promise" placeholder="请输入商品服务承诺">
+        </p>
+        <p align="center">
+            规&nbsp;&nbsp;格&nbsp;&nbsp;颜&nbsp;&nbsp;色&nbsp;：<input type="text" name="spec" placeholder="请输入商品规格及颜色">
+        </p>
+        <p align="center">
+            商&nbsp;&nbsp;品&nbsp;&nbsp;名&nbsp;&nbsp;称&nbsp;：<input type="text" name="lname" placeholder="请输入商品名称">
+        </p>
+        <p align="center">
+            操&nbsp;&nbsp;作&nbsp;&nbsp;系&nbsp;&nbsp;统&nbsp;：<input type="text" name="os" placeholder="请输入商品操作系统">
+        </p>
+        <p align="center">
+            内&nbsp;&nbsp;存&nbsp;&nbsp;容&nbsp;&nbsp;量&nbsp;：<input type="text" name="memory" placeholder="请输入商品内存容量">
+        </p>
+        <p align="center">
+            分&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;辨&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;率：<input type="text" name="resollution" placeholder="请输入商品分辨率">
+        </p>
+        <p align="center">
+            显&nbsp;&nbsp;卡&nbsp;&nbsp;型&nbsp;&nbsp;号&nbsp;：<input type="text" name="videocard" placeholder="请输入商品显卡型号">
+        </p>
+        <p align="center">
+            处&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;理&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;器：<input type="text" name="cpu" placeholder="请输入商品处理器">
+        </p>
+        <p align="center">
+            显&nbsp;&nbsp;存&nbsp;&nbsp;容&nbsp;&nbsp;量&nbsp;：<input type="text" name="videomemory" placeholder="请输入商品显存容量">
+        </p>
+        <p align="center">
+            所&nbsp;&nbsp;属&nbsp;&nbsp;分&nbsp;&nbsp;类&nbsp;：<input type="text" name="category" placeholder="请输入商品所属分类">
+        </p>
+        <p align="center">
+            硬盘容量类型：<input type="text" name="disks" placeholder="请输入商品硬盘容量及类型">
+        </p>
+        <p align="center">
+            产品详细说明：<input type="text" name="detail" placeholder="请输入商品产品详细说明">
+        </p>
+        <p align="center">
+            上&nbsp;&nbsp;架&nbsp;&nbsp;时&nbsp;&nbsp;间&nbsp;：<input type="text" name="shelftime" placeholder="请输入商品上架时间">
+        </p>
+        <p align="center">
+            已售出的数量：<input type="text" name="soldcount" placeholder="请输入商品已售出的数量">
+        </p>
+        <p align="center">
+            是&nbsp;否&nbsp;在&nbsp;&nbsp;售：
+            <input type="radio"  name="isonsale" value="1">是
+            <input type="radio"  name="isonsale" value="0">否
+        </p>
+        <p align="center">
+            <input type="submit" value="添加商品" >
+        </p>
+    </form>
+</body>
+</html>
